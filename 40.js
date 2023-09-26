@@ -1,3 +1,16 @@
+var _ = require("lodash");
+
+function generateLargeArray(size) {
+  const largeArray = [];
+  for (let i = 0; i < size; i++) {
+    largeArray.push(i);
+  }
+  return largeArray;
+}
+
+const size = 1000;
+const largeArray = generateLargeArray(size);
+
 const users = [
   { id: "1", name: "Alice" },
   { id: "2", name: "Bob" },
