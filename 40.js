@@ -91,6 +91,5 @@ console.log("Omitted User ", omittedUser);
 const pickedUser = _.pickBy(user, (value) => typeof value === "string");
 console.log("Picked User ", pickedUser);
 //
-const deeplyNestedArray = [1, [2, [3, [4]]]];
 const partiallyFlattenedArray = _.flattenDepth(deeplyNestedArray, 2);
 console.log("Partially Flattened Array ", partiallyFlattenedArray);
